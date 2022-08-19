@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+
+*{
+    box-sizing: border-box;
+    font-family:Raleway;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: green;
+    text-decoration: none;
+    
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,30%);
+}
+
+.mainheader{
+
+    background-image: url("./../images/people/flower.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,30%);
+    
+}
+.main-nav li{
+    padding: 0 10%;
+
+}
+.band-name{
+    text-align:center ;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Jost';
+    color: goldenrod;
+
+}
+.band-name-large{
+    font-size: 6em;
+}
+.content-section{
+    margin: 1em;
+
+
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    /* font-family:  */
+    text-align: center;
+}
+.service-image{
+    float: left;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    margin:10px
+}
+
+.main-footer{
+    background-color:blanchedalmond;
+    box-sizing: content-box;
+    color: lightcoral;
+    padding: .15em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-nav li{
+    padding: 0;
+}
+footer.nav{
+    width: 30px;
+    height: 30px;
+}
