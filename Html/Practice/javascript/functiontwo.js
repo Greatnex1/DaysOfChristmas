@@ -42,3 +42,22 @@ console.log(Person.fullname())
 // to create spaces after the string use padEnd
 
 // N:B To run in terminal
+const aye =[1,2,3,5,6,89]
+// aye.forEach((elem, index, array)=>{
+    
+//     console.log(elem,index,array)
+
+// });
+// const f = aye.filter((item) => item > 5)
+// console.log(f)
+
+const mappedArr = aye.map((item, index) => {
+    [index]; item * 2 });
+
+console.log(mappedArr);
+
+const reduceArr = aye.reduce((acc,item)=> acc + item);
+console.log(reduceArr)
+const fruits = ["apple", "pear", "pine-apple", "orange", "cucumber"]
+
+=fruits.reduce((acc,item) => (acc,length >= item.length ? acc : item))
